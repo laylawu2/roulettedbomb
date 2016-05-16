@@ -1,6 +1,6 @@
 
 var snd = new Audio("Explosion+1.wav"); // buffers automatically when created
-
+var snd2 = new Audio("Chipmonk+Talk.wav");
 
 var random = Math.floor(Math.random()*9);
 
@@ -14,6 +14,7 @@ function checkPosition(id){
     snd.play()
   }else {
     counter = counter-1;
+    snd2.play();
     document.getElementById(id).innerHTML = '<img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Chicken_sombrero.gif"/>';
     if (counter===1) {
       document.getElementById("youwin").innerHTML ="You win!";
