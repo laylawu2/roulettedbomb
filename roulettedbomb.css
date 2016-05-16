@@ -1,0 +1,49 @@
+table {
+  background-color: #ddfafb;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: groove;
+}
+#counter {
+  font-size: 70pt;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+body {
+  background-color: #62b4b6;
+}
+h1 {
+  text-align: center;
+  font-size: 50pt;
+  margin-bottom: 5px;
+  font-family: 'Dosis', sans-serif;
+}
+
+img {
+  max-height: 120px;
+}
+td {
+  width:180px;
+  max-width:180px;
+  height:180px;
+  max-height:180px;
+  font-size: 55pt;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+footer {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+
+}
+.navbar-brand {
+  background-color: black;
+  color: white;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+  min-height: 40px;
+}
