@@ -1,0 +1,35 @@
+section {
+	margin: auto;
+    width: 50%;
+  
+    padding: 10px;
+    margin-top: 100px;
+
+}
+
+#question{
+	width: 80%;
+	height:5%;
+}
+
+#answer{
+	width: 10%;
+	height:5%;
+}
+
+h3{
+	min-height:50px;
+}
+  
+
+#magicball {
+  height: 300px;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+body {
+  background-color: #ffeeb5;
+}
+.jumbotron {
+  background-color: #ffeeb5;
+}
